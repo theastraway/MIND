@@ -13,23 +13,27 @@ agent to a MIND, three ways.
 | **CLI** | Claude Code, VPSs, CI, terminals | [m-i-n-d.ai/cli](https://m-i-n-d.ai/cli) |
 | **Skills** | Claude Code, Cursor, and skills-aware agents | [m-i-n-d.ai/skills](https://m-i-n-d.ai/skills) |
 
-Every door opens onto the same brain: **24 tools, 147 actions** covering
+Every door opens onto the same brain: **30 tools, 199 actions** covering
 memory, the knowledge graph, LIFE board, calendar, CRM, tasks, emotional
 intelligence, autonomous insights, deep research, self-training, social,
 automations, and the Agent Command Center.
 
 ## MCP
 
+One paste — no package, no key to manage:
+
 ```bash
-npm install -g @astramindapp/mcp-server
+claude mcp add --transport http mind https://m-i-n-d.ai/mcp
 ```
 
-Get a key at [m-i-n-d.ai](https://m-i-n-d.ai) → Settings → Developer → API
-Keys (prefix `mind_`), then connect:
+Your browser opens the MIND consent screen; sign in and you're connected.
+On claude.ai: Settings → Connectors → add `https://m-i-n-d.ai/mcp`.
 
-**Claude Code**
+Prefer a local stdio server? Install the package and use a key
+(create one at [m-i-n-d.ai](https://m-i-n-d.ai) → Settings → Developer → API Keys):
 
 ```bash
+npm install -g @astramindapp/mcp-server
 claude mcp add mind -- env MIND_API_KEY=mind_xxx mind-mcp
 ```
 

@@ -46,15 +46,15 @@ using it well.
 - Admin tools (`mind_admin`, `mind_agents`, `mind_tickets`) require an
   admin-scoped key; do not retry on authorization errors.
 
-## Tool map (24 tools, by app)
+## Tool map (30 tools, by app)
 
 | Surface | Tools |
 |---|---|
-| Memory & knowledge | `mind_query`, `mind_remember`, `mind_folders`, `mind_context`, `mind_graph` |
-| Life & productivity | `mind_life` (goals/projects/tasks/calendar), `mind_tasks`, `mind_automate`, `mind_notify` |
-| People | `mind_crm` (contacts/pipeline/activities), `mind_social`, `mind_profile` |
-| Intelligence | `mind_sense` (emotional state), `mind_insights`, `mind_research`, `mind_train` |
-| Fleet & admin | `mind_agents`, `mind_tickets`, `mind_admin`, `mind_accounts` |
+| Memory & knowledge | `mind_query`, `mind_remember`, `mind_folders`, `mind_folder_routes`, `mind_folder_suggest`, `mind_context`, `mind_graph` |
+| Life & productivity | `mind_life` (focus/project/outcome + calendar), `mind_focuses`, `mind_tasks`, `mind_automate`, `mind_notify` |
+| People | `mind_crm` (contacts/pipeline/activities), `mind_social`, `mind_social_analytics`, `mind_profile` |
+| Intelligence | `mind_sense` (emotional state), `mind_insights`, `mind_research`, `mind_osint`, `mind_train` |
+| Fleet & admin | `mind_agents`, `mind_personas`, `mind_tickets`, `mind_admin`, `mind_accounts` |
 | Typed documents | `mind_list_templates`, `mind_get_template`, `mind_save_typed`, `mind_bootstrap_templates` |
 
 ## Usage discipline
