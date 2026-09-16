@@ -9,11 +9,11 @@ agent to a MIND, three ways.
 
 | Door | For | Start here |
 |---|---|---|
-| **MCP** | Claude Desktop, claude.ai, Cursor, Windsurf — any MCP client | [m-i-n-d.ai/mcp](https://m-i-n-d.ai/mcp) |
-| **CLI** | Claude Code, VPSs, CI, terminals | [m-i-n-d.ai/cli](https://m-i-n-d.ai/cli) |
-| **Skills** | Claude Code, Cursor, and skills-aware agents | [m-i-n-d.ai/skills](https://m-i-n-d.ai/skills) |
+| **MCP** | Claude Desktop, claude.ai, Cursor, Windsurf — any MCP client | [www.m-i-n-d.ai/mcp](https://www.m-i-n-d.ai/mcp) |
+| **CLI** | Claude Code, VPSs, CI, terminals | [www.m-i-n-d.ai/cli](https://www.m-i-n-d.ai/cli) |
+| **Skills** | Claude Code, Cursor, and skills-aware agents | [www.m-i-n-d.ai/skills](https://www.m-i-n-d.ai/skills) |
 
-Every door opens onto the same brain: **30 tools, 199 actions** covering
+Every door opens onto the same brain: **44 tools, 384 actions** covering
 memory, the knowledge graph, LIFE board, calendar, CRM, tasks, emotional
 intelligence, autonomous insights, deep research, self-training, social,
 automations, and the Agent Command Center.
@@ -23,11 +23,11 @@ automations, and the Agent Command Center.
 One paste — no package, no key to manage:
 
 ```bash
-claude mcp add --transport http mind https://m-i-n-d.ai/mcp
+claude mcp add --transport http mind https://www.m-i-n-d.ai/mcp
 ```
 
 Your browser opens the MIND consent screen; sign in and you're connected.
-On claude.ai: Settings → Connectors → add `https://m-i-n-d.ai/mcp`.
+On claude.ai: Settings → Connectors → add `https://www.m-i-n-d.ai/mcp`.
 
 Prefer a local stdio server? Install the package and use a key
 (create one at [m-i-n-d.ai](https://m-i-n-d.ai) → Settings → Developer → API Keys):
@@ -74,7 +74,7 @@ and the full tool map — into your agent.
 Everything above maps 1:1 to the REST API:
 
 ```
-https://m-i-n-d.ai/developer/v1     header: X-API-Key: mind_xxx
+https://www.m-i-n-d.ai/developer/v1     header: X-API-Key: mind_xxx
 ```
 
 Use it from n8n, scripts, backends, or any runtime without MCP support.
@@ -91,7 +91,7 @@ openclaw plugins install @astramindapp/openclaw-mind
 
 - App: [m-i-n-d.ai](https://m-i-n-d.ai)
 - MCP server on npm: [`@astramindapp/mcp-server`](https://www.npmjs.com/package/@astramindapp/mcp-server)
-- Connect pages: [/mcp](https://m-i-n-d.ai/mcp) · [/cli](https://m-i-n-d.ai/cli) · [/skills](https://m-i-n-d.ai/skills)
+- Connect pages: [/mcp](https://www.m-i-n-d.ai/mcp) · [/cli](https://www.m-i-n-d.ai/cli) · [/skills](https://www.m-i-n-d.ai/skills)
 
 ---
 
