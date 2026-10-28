@@ -79,13 +79,9 @@ https://www.m-i-n-d.ai/developer/v1     header: X-API-Key: mind_xxx
 
 Use it from n8n, scripts, backends, or any runtime without MCP support.
 
-## OpenClaw
+## Daebot
 
-OpenClaw agents skip the MCP server and install the native plugin:
-
-```bash
-openclaw plugins install @astramindapp/openclaw-mind
-```
+Want a ready-made agent with MIND built in? Open [daebot.live](https://daebot.live) and sign in with MIND. Source: [github.com/theastraway/daebot](https://github.com/theastraway/daebot).
 
 ## Links
 
